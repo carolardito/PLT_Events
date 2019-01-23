@@ -14,6 +14,10 @@
 		322FC4A3212AB7F4000E9606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322FC4A1212AB7F4000E9606 /* LaunchScreen.storyboard */; };
 		322FC4AE212AB7F4000E9606 /* TLPEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322FC4AD212AB7F4000E9606 /* TLPEventsTests.swift */; };
 		322FC4B9212AB7F4000E9606 /* TLPEventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322FC4B8212AB7F4000E9606 /* TLPEventsUITests.swift */; };
+		323A12E9212B2B360025FD54 /* AllListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A12E8212B2B360025FD54 /* AllListTableViewController.swift */; };
+		323A12EB212B2E600025FD54 /* AllListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A12EA212B2E600025FD54 /* AllListTableViewCell.swift */; };
+		323A12ED212B2F1F0025FD54 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A12EC212B2F1F0025FD54 /* Events.swift */; };
+		323A12EF212B442E0025FD54 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A12EE212B442E0025FD54 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		322FC4B4212AB7F4000E9606 /* TLPEventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLPEventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		322FC4B8212AB7F4000E9606 /* TLPEventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLPEventsUITests.swift; sourceTree = "<group>"; };
 		322FC4BA212AB7F4000E9606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323A12E8212B2B360025FD54 /* AllListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListTableViewController.swift; sourceTree = "<group>"; };
+		323A12EA212B2E600025FD54 /* AllListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListTableViewCell.swift; sourceTree = "<group>"; };
+		323A12EC212B2F1F0025FD54 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		323A12EE212B442E0025FD54 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				322FC49F212AB7F4000E9606 /* Assets.xcassets */,
 				322FC4A1212AB7F4000E9606 /* LaunchScreen.storyboard */,
 				322FC4A4212AB7F4000E9606 /* Info.plist */,
+				323A12E8212B2B360025FD54 /* AllListTableViewController.swift */,
+				323A12EA212B2E600025FD54 /* AllListTableViewCell.swift */,
+				323A12EC212B2F1F0025FD54 /* Events.swift */,
+				323A12EE212B442E0025FD54 /* DetailViewController.swift */,
 			);
 			path = TLPEvents;
 			sourceTree = "<group>";
@@ -257,7 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				322FC49B212AB7F2000E9606 /* ViewController.swift in Sources */,
+				323A12EB212B2E600025FD54 /* AllListTableViewCell.swift in Sources */,
 				322FC499212AB7F2000E9606 /* AppDelegate.swift in Sources */,
+				323A12EF212B442E0025FD54 /* DetailViewController.swift in Sources */,
+				323A12E9212B2B360025FD54 /* AllListTableViewController.swift in Sources */,
+				323A12ED212B2F1F0025FD54 /* Events.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
